@@ -1,7 +1,7 @@
 #
 # General dev tools
 # 
-brew "devspace"
+brew "git"
 brew "jq"
 brew "yq"
 
@@ -17,6 +17,7 @@ brew "kubectl"
 brew "kubectx"
 brew "helm"
 brew "kustomize"
+brew "devspace"
 brew "k9s"
 brew "k3d"
 
