@@ -30,3 +30,4 @@ brew "docker-buildx"
 # Release Management
 #
 brew "changie"
+brew "gh"
