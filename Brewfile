@@ -20,6 +20,7 @@ brew "kustomize"
 brew "devspace"
 brew "k9s"
 brew "k3d"
+brew "kubectl-cnpg"
 
 #
 # Docker tooling

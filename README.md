@@ -19,6 +19,19 @@ Using [k3d](https://k3d.io)
 
 ```bash
 k3d cluster create --config k3d/config.yaml
+
+# Install the cloudnativepg operator
+helm repo add cnpg https://cloudnative-pg.github.io/charts
+helm repo update
+
+helm upgrade cnpg cnpg/cloudnative-pg --install --namespace cnpg-system --create-namespace 
+```
+
+Setup a development namespace and database
+
+```bash
+kubectl create ns dev-01
+kubectl apply -f manifests/db.yaml -n dev-01
 ```
 
 Cleanup
