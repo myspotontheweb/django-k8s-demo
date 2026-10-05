@@ -1,6 +1,10 @@
 # django-k8s-demo
 Learn how to deploy and develop a Django application on Kubernetes
 
+## Documentation
+
+* [Release Management](docs/releases.md)
+
 ## Software
 
 Using [Homebrew](https://brew.sh) install CLI tooling
