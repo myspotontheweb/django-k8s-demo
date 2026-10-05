@@ -46,3 +46,18 @@ k3d cluster delete --config k3d/config.yaml
 python3 -m venv .venv
 source .venv/bin/activate
 ```
+
+Setup Django
+
+```bash
+pip install django
+django-admin startproject mysite src
+
+pip freeze > requirements.txt
+```
+
+Run dev server
+
+```bash
+(cd src; python manage.py runserver)
+```
